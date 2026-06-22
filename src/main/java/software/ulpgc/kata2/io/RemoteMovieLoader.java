@@ -1,4 +1,7 @@
-package software.ulpgc.kata2;
+package software.ulpgc.kata2.io;
+
+import software.ulpgc.kata2.model.Movie;
+import software.ulpgc.kata2.serializers.TsvMovieParser;
 
 import java.io.*;
 import java.net.URL;
