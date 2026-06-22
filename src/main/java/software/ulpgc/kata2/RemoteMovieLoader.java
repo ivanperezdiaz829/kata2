@@ -18,7 +18,7 @@ public class RemoteMovieLoader implements MovieLoader {
     }
 
     private List<Movie> loadMoviesFrom(URL url) throws IOException {
-        return loadMoviesFrom(url.openConnection().getInputStream());
+        return loadMoviesFrom(url.openConnection());
     }
 
     private List<Movie> loadMoviesFrom(URLConnection connection) throws IOException {
